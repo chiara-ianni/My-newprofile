@@ -9,29 +9,51 @@
 </head>
 <body>
   <div class="container">
-    <div class="profile-main">
-     
-      <!-- Avatar + nom -->
-      <div class="profile-header">
-        <img src="images/photo-profil.jpg" alt="Esteban" class="avatar" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?w=160'">
-        <div class="profile-text">
-          <h1>Esteban</h1>
-          <p>UX/UI Designer & Développeur Web</p>
+   
+    <!-- HEADER / AVATAR -->
+    <header class="profile-header">
+      <img src="images/photo-profil.jpg" alt="Esteban" class="avatar" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?w=160'">
+      <div>
+        <h1>Esteban</h1>
+        <p>UX/UI Designer & Web Developer</p>
+      </div>
+    </header>
+
+    <!-- DESCRIPTION -->
+    <section class="bio-section">
+      <h2>À propos</h2>
+      <p>Étudiant passionné par le design d'interfaces et le développement web. Basé à Lille, j'aide les startups à créer des expériences utilisateur modernes et efficaces.</p>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="skills-section">
+      <h2>Compétences</h2>
+      <div class="skills-list">
+        <div class="skill-item">
+          <span>Design UX/UI</span>
+          <span class="skill-level">Figma, Adobe XD</span>
+        </div>
+        <div class="skill-item">
+          <span>Web Development</span>
+          <span class="skill-level">HTML, CSS, JS</span>
+        </div>
+        <div class="skill-item">
+          <span>Business</span>
+          <span class="skill-level">Excel, Stratégie</span>
         </div>
       </div>
+    </section>
 
-      <!-- Description courte -->
-      <div class="profile-bio">
-        <p>Étudiant passionné par le design d'interfaces et le développement web. Basé à Lille.</p>
-      </div>
-
-      <!-- Boutons réseaux -->
+    <!-- LIENS RÉSEAUX -->
+    <section class="social-section">
+      <h2>Suivez-moi</h2>
       <div class="social-buttons">
         <a href="https://linkedin.com" class="social-btn linkedin" target="_blank">LinkedIn</a>
         <a href="https://github.com" class="social-btn github" target="_blank">GitHub</a>
         <a href="https://instagram.com" class="social-btn instagram" target="_blank">Instagram</a>
       </div>
-    </div>
+    </section>
+
   </div>
 </body>
 </html>
