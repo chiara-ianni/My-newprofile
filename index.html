@@ -1,34 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Profile - Chiara Ianni</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esteban - Profil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div class="container">
-    <div class="header">
-      <h1>Chiara Ianni</h1>
-      <p>Passionate Photographer</p>
-    </div>
+    <div class="profile-main">
+     
+      <!-- Avatar + nom -->
+      <div class="profile-header">
+        <img src="images/photo-profil.jpg" alt="Esteban" class="avatar" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?w=160'">
+        <div class="profile-text">
+          <h1>Esteban</h1>
+          <p>UX/UI Designer & Développeur Web</p>
+        </div>
+      </div>
 
-    <div class="profile">
-      <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Profile picture">
-      
-      <div class="info">
-        <p><strong>Age:</strong> 18 years old</p>
-        <p>
-          I am a passionate photographer who loves capturing the beauty of the world around us. 
-          I enjoy taking photos of landscapes, animals, and all the little moments that make life unique and beautiful.
-        </p>
+      <!-- Description courte -->
+      <div class="profile-bio">
+        <p>Étudiant passionné par le design d'interfaces et le développement web. Basé à Lille.</p>
+      </div>
+
+      <!-- Boutons réseaux -->
+      <div class="social-buttons">
+        <a href="https://linkedin.com" class="social-btn linkedin" target="_blank">LinkedIn</a>
+        <a href="https://github.com" class="social-btn github" target="_blank">GitHub</a>
+        <a href="https://instagram.com" class="social-btn instagram" target="_blank">Instagram</a>
       </div>
     </div>
-
-    <div class="footer">
-      © 2026 - Chiara Ianni's Profile
-    </div>
   </div>
-
 </body>
 </html>
